@@ -1,0 +1,26 @@
+# Dữ liệu cuộc thi (tải riêng / add qua Kaggle Dataset)
+dataset/
+
+# Artifact sinh ra khi train
+checkpoints/
+outputs/
+*.pt
+*.pth
+*.model
+*.vocab
+spm_*.txt
+tmp_*.txt
+
+# File nộp bài
+*submission*.csv
+*.zip
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+*.pyc
+
+# Khác
+.DS_Store
